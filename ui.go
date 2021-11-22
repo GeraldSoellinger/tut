@@ -24,6 +24,8 @@ const (
 	VoteOverlayFocus
 	AuthOverlayFocus
 	UserSelectFocus
+	PollFocus
+	ExpirationFocus
 )
 
 func NewUI(app *App) *UI {
